@@ -8,7 +8,7 @@
 body {
   background-color: #FFF;
   color: #444;
-  font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px; }
@@ -1023,7 +1023,7 @@ figure.highlight {
   font-style: normal; }
 
 i {
-  font-family: 'icomoon', "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: 'icomoon', Arial, sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1068,7 +1068,7 @@ i {
   .post-nav a {
     display: inline-block;
     line-height: 25px;
-    font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 15px;
     color: #555;
     border-bottom: none;
