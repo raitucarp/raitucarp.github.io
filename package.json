@@ -1,0 +1,31 @@
+{
+  "name": "raitucarp.github.io",
+  "version": "1.0.0",
+  "description": "Ribhararnus Pracutiar's Resume",
+  "main": "index.js",
+  "dependencies": {
+    "jsonresume-theme-classy": "^1.0.9",
+    "jsonresume-theme-elegant": "^1.6.10",
+    "jsonresume-theme-kwan": "0.0.2",
+    "jsonresume-theme-modern": "0.0.18",
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-slick": "^0.1.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raitucarp/raitucarp.github.io.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Ribhararnus Pracutiar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raitucarp/raitucarp.github.io/issues"
+  },
+  "homepage": "https://github.com/raitucarp/raitucarp.github.io#readme"
+}
