@@ -1,0 +1,138 @@
+{
+    "basics": {
+        "name": "Ribhararnus Pracutiar",
+        "label": "Programmer",
+        "picture": "https://cdn.rawgit.com/raitucarp/raitucarp.github.io/master/resume-photo.jpg",
+        "email": "pracutiar@ribhararn.us",
+        "phone": "(+62) 856-4536-2078",
+        "website": "http://pracutiar.ribhararn.us",
+        "summary": "Ribhararnus Pracutiar memperoleh skill menjadi programmer bukan melalui pendidikan formal namun secara otodidak. Pengetahuan yang bertahap diperoleh secara iterasi ini dipergunakan mula-mula membangun sebuah website iklan baris beranama iklanyuk.com (yang masih bisa diakses melalui web archive). Awalnya hanya menguasai beberapa bahasa pemrograman server seperti PHP. Namun seiring waktu, ketika berbenturan dengan data mining dan web scraping, beberapa bahasa lainnya seperti Python, Javascript dan Go mewajibkan ia kuasai. Peralihan antar bahasa pemrograman ini membawa paradigma tersendiri baginya. Kegiatan scraping adalah salah satu dari beberapa hal yang Ribhararnus Pracutiar sukai.",
+        "location": {
+            "address": "Jln. Panglima Polim, Gg. Sidodadi No. 24a",
+            "postalCode": "62115",
+            "city": "Bojonegoro",
+            "countryCode": "ID",
+            "region": "Jawa Timur"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "raitucarp",
+                "url": "http://twitter.com/raitucarp"
+            },
+            {
+                "network": "Github",
+                "username": "raitucarp",
+                "url": "https://github.com/raitucarp"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Self-Employed Web Developer",
+            "position": "-",
+            "startDate": "2009-01-01",
+            "endDate": "2016-08-01",
+            "summary": "Data mining dan web scraping",
+            "highlights": [
+                "Migrate entire code from PHP source to node.js",
+                "Create Piranhax - Amazon Product Advertising API client for Node.js",
+                "Express-theme - Theme for express.js"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universitas Bojonegoro",
+            "area": "Ekonomi Pembangunan",
+            "studyType": "Sarjana",
+            "startDate": "2010-06-27",
+            "endDate": "2014-06-27",
+            "gpa": "3.0"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Frontent",
+            "level": "8+ years",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "React",
+                "Stylus",
+                "Pug"
+            ]
+        },
+        {
+            "name": "Backend",
+            "level": "3+ years",
+            "keywords": [
+                "Node.js/Javascript",
+                "Go Language",
+                "PHP"
+            ]
+        },
+        {
+            "name": "NoSQL Database",
+            "level": "3+ years",
+            "keywords": [
+                "MongoDB",
+                "Redis"
+            ]
+        },
+        {
+            "name": "SQL Database",
+            "level": "3+ years",
+            "keywords": [
+                "mySQL",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "name": "Web API Development",
+            "level": "Advanced",
+            "keywords": [
+                "REST"
+            ]
+        },
+        {
+            "name": "Web API Development",
+            "level": "Novice",
+            "keywords": [
+                "GraphQL"
+            ]
+        }
+    ],
+    "interests": [
+        {
+            "name": "World building",
+            "keywords": [
+                "New character",
+                "Random character"
+            ]
+        },
+        {
+            "name": "Philosophy",
+            "keywords": [
+                "Existensialism"
+            ]
+        },
+        {
+            "name": "Random Things",
+            "keywords": [
+                "Procedurally Generation"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Ribhararnus Pracutian",
+            "reference": "Saya menggeluti programming, dan mengikuti perkembangan science dan dunia developer sebagai hobi, saya pikir saya sudah menguasainya, tetapi saudara kembar saya ternyata lebih maju satu langkah dari saya"
+        },
+        {
+            "name": "Github Resume",
+            "reference": "ENTHUSIASTIC GITHUB USER - http://resume.github.io/?raitucarp"
+        }
+    ]
+}
