@@ -1,11 +1,11 @@
 basics:
   name: 'Ribhararnus Pracutiar'
   label: Programmer
-  picture: resume-photo.jpg
+  profile: 'https://themes.3rdwavemedia.com/demo/orbit/assets/images/profile.png'
   email: pracutiar@ribhararn.us
   phone: '(+62) 856-4536-2078'
   website: 'http://pracutiar.ribhararn.us'
-  summary: 'Ribhararnus Pracutiar memperoleh skill menjadi programmer bukan melalui pendidikan formal namun secara otodidak. Pengetahuan yang bertahap diperoleh secara iterasi ini dipergunakan mula-mula membangun sebuah website iklan baris beranama iklanyuk.com (yang masih bisa diakses melalui web archive). Awalnya hanya menguasai beberapa bahasa pemrograman server seperti PHP. Namun seiring waktu, ketika berbenturan dengan data mining dan web scraping, beberapa bahasa lainnya seperti Python, Javascript dan Go mewajibkan ia kuasai. Peralihan antar bahasa pemrograman ini membawa paradigma tersendiri baginya. Kegiatan scraping adalah salah satu dari beberapa hal yang Ribhararnus Pracutiar sukai.'
+  summary: 'I''m fullstack developer, currently seeking a position that challenges me to be a better programmer. I always hungry to learn new things especially with team that apply modern management.'
   location:
     address: 'Jln. Panglima Polim, Gg. Sidodadi No. 24a'
     postalCode: '62115'
@@ -21,13 +21,28 @@ basics:
       network: Github
       username: raitucarp
       url: 'https://github.com/raitucarp'
+    -
+      network: Linked-in
+      username: 'Ribhararnus Pracutiar'
+      url: 'https://linkedin.com/in/raitucarp'
 work:
   -
+    company: 8Villages
+    position: 'Backend Software Developer'
+    startDate: '2016-09-10'
+    endDate: '2017-05-27'
+    summary: 'Build experimental search engine (robot spider and crawler) for a website that has a niche agriculture, using fullstack Javascript. Also help to build follower web service system like twitter using graph database for farmer.'
+    highlights:
+      - 'Build experimental search engine from scratch including spider and scraper'
+      - 'Create search engine dashboard with React + Redux'
+      - 'Create a social graph connection (follower system) webservice using graph database'
+      - 'Help restructure internal REST API web-service'
+  -
     company: 'Self-Employed Web Developer'
-    position: '-'
+    position: 'Fullstack Developer and Data Miner'
     startDate: '2009-01-01'
     endDate: '2016-08-01'
-    summary: 'Data mining dan web scraping'
+    summary: 'Do web scraping from various website using headless browser before it''s cool. Use that data to build a website that can be monetize in various way.'
     highlights:
       - 'Migrate entire code from PHP source to node.js'
       - 'Create Piranhax - Amazon Product Advertising API client for Node.js'
@@ -49,11 +64,9 @@ skills:
       - CSS
       - Javascript
       - React
-      - Stylus
-      - Pug
   -
     name: Backend
-    level: '3+ years'
+    level: '8+ years'
     keywords:
       - Node.js/Javascript
       - 'Go Language'
@@ -71,25 +84,16 @@ skills:
       - mySQL
       - PostgreSQL
   -
-    name: 'Web API Development'
-    level: Advanced
+    name: 'REST API'
+    level: '5+ years'
     keywords:
       - REST
   -
-    name: 'Web API Development'
-    level: Novice
+    name: GraphQL
+    level: '2+ years'
     keywords:
       - GraphQL
 interests:
-  -
-    name: 'World building'
-    keywords:
-      - 'New character'
-      - 'Random character'
-  -
-    name: Philosophy
-    keywords:
-      - Existensialism
   -
     name: 'Random Things'
     keywords:

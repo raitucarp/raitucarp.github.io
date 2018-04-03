@@ -1,9 +1,17 @@
 {
   "name": "Ribhararnus Pracutiar",
-  "info": {},
+  "info": {
+    "label": "Programmer",
+    "brief": "I'm fullstack developer, currently seeking a position that challenges me to be a better programmer. I always hungry to learn new things especially with team that apply modern management."
+  },
+  "contact": {
+    "email": "pracutiar@ribhararn.us",
+    "phone": "(+62) 856-4536-2078",
+    "website": "http://pracutiar.ribhararn.us"
+  },
   "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.1.0"
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2018-04-03T19:36:01.286Z"
   },
   "location": {
     "city": "Bojonegoro",
@@ -15,9 +23,23 @@
   "employment": {
     "history": [
       {
-        "position": "-",
+        "position": "Backend Software Developer",
+        "employer": "8Villages",
+        "summary": "Build experimental search engine (robot spider and crawler) for a website that has a niche agriculture, using fullstack Javascript. Also help to build follower web service system like twitter using graph database for farmer.",
+        "start": "2016-09-10",
+        "end": "2017-05-27",
+        "keywords": [],
+        "highlights": [
+          "Build experimental search engine from scratch including spider and scraper",
+          "Create search engine dashboard with React + Redux",
+          "Create a social graph connection (follower system) webservice using graph database",
+          "Help restructure internal REST API web-service"
+        ]
+      },
+      {
+        "position": "Fullstack Developer and Data Miner",
         "employer": "Self-Employed Web Developer",
-        "summary": "Data mining dan web scraping",
+        "summary": "Do web scraping from various website using headless browser before it's cool. Use that data to build a website that can be monetize in various way.",
         "start": "2009-01-01",
         "end": "2016-08-01",
         "keywords": [],
@@ -52,14 +74,12 @@
           "HTML",
           "CSS",
           "Javascript",
-          "React",
-          "Stylus",
-          "Pug"
+          "React"
         ]
       },
       {
         "name": "Backend",
-        "level": "3+ years",
+        "level": "8+ years",
         "skills": [
           "Node.js/Javascript",
           "Go Language",
@@ -83,15 +103,15 @@
         ]
       },
       {
-        "name": "Web API Development",
-        "level": "Advanced",
+        "name": "REST API",
+        "level": "5+ years",
         "skills": [
           "REST"
         ]
       },
       {
-        "name": "Web API Development",
-        "level": "Novice",
+        "name": "GraphQL",
+        "level": "2+ years",
         "skills": [
           "GraphQL"
         ]
@@ -110,22 +130,15 @@
       "network": "Github",
       "url": "https://github.com/raitucarp",
       "user": "raitucarp"
+    },
+    {
+      "label": "Linked-in",
+      "network": "Linked-in",
+      "url": "https://linkedin.com/in/raitucarp",
+      "user": "Ribhararnus Pracutiar"
     }
   ],
   "interests": [
-    {
-      "name": "World building",
-      "keywords": [
-        "New character",
-        "Random character"
-      ]
-    },
-    {
-      "name": "Philosophy",
-      "keywords": [
-        "Existensialism"
-      ]
-    },
     {
       "name": "Random Things",
       "keywords": [
