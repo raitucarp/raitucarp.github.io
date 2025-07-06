@@ -1,3 +1,3 @@
-# Ribhararnus Pracuutiar
+# Ribhararnus Pracutiar
 
-Hi, there
+This is my personal website repository. All codes belongs here and will update regularly in the future.
