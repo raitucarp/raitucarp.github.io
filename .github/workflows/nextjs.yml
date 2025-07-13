@@ -9,12 +9,11 @@ on:
   push:
     branches: ["main"]
 
-  workflow_call:
-    inputs:
-      custom_message:
-        required: false
-        type: string
-        default: "Hello!"
+  workflow_run:
+    workflows: ["New Post Update"]
+    branches: [main]
+    types:
+      - completed
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
