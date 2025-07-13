@@ -31,9 +31,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Clone another repository into a subdirectory
+        uses: actions/checkout@v4
         with:
-          submodules: true # Fetch submodules
-          fetch-depth: 0 # Required to get all Git history for submodules
+          repository: "raitucarp/posts"
+          path: "_posts"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: "main"
       - name: Detect package manager
         id: detect-package-manager
         run: |
