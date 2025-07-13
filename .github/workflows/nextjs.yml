@@ -9,11 +9,7 @@ on:
   push:
     branches: ["main"]
 
-  workflow_run:
-    workflows: ["New Post Update"]
-    branches: [main]
-    types:
-      - completed
+  workflow_call:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
