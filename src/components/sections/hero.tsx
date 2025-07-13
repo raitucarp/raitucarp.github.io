@@ -17,10 +17,11 @@ import {
 } from "react-icons/fa6";
 import { ContactButtonGroup } from "@/components/contact";
 import { CallToAction } from "@/components/cta";
+import { AboutMeHeading, OwnerHeading } from "../about";
 
 export function HeroSection() {
   return (
-    <HStack w="100%" px="8%" py={"2rem"}>
+    <HStack w="100%" px={["5%", "8%"]} py={["1rem", "2rem"]}>
       <VStack alignItems={"start"}>
         <HStack justify="start" alignItems="center">
           <Heading
@@ -35,32 +36,11 @@ export function HeroSection() {
           </Heading>
           <ContactButtonGroup />
         </HStack>
-        <Heading
-          className={merriweather.className}
-          fontSize={"7xl"}
-          lineHeight={"normal"}
-          as="h1"
-        >
-          <Text as="span" fontWeight={"400"}>
-            Hi, I'm Ribhararnus
-          </Text>
-          <Text
-            as="span"
-            color={{ _dark: "yellow.400", base: "yellow.500" }}
-            fontWeight={"300"}
-          >
-            {`<Pracutiar>`}
-          </Text>
-        </Heading>
-        <Heading
-          className={notoSans.className}
-          fontSize={"2xl"}
-          lineHeight={"normal"}
-          as="h3"
-          fontWeight={"300"}
-        >
-          Developer, Writer, Magus and Neurodivergent
-        </Heading>
+        <OwnerHeading fontSize={["2xl", "7xl"]} />
+        <AboutMeHeading
+          _highlight={{ query: "Developer" }}
+          fontSize={["md", "2xl"]}
+        />
 
         <CallToAction />
       </VStack>

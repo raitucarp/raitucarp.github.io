@@ -1,4 +1,6 @@
+import { ownerData } from "@/fixtures/general";
 import { ButtonGroup, IconButton } from "@chakra-ui/react";
+import Link from "next/link";
 import {
   FaSquareXTwitter,
   FaGithub,
@@ -10,20 +12,30 @@ import {
 export function ContactButtonGroup() {
   return (
     <ButtonGroup size="sm" variant="subtle" rounded="full" attached>
-      <IconButton roundedLeft={"full"}>
-        <FaSquareXTwitter />
+      <IconButton roundedLeft={"full"} asChild>
+        <Link href={ownerData.social.x} target="_blank">
+          <FaSquareXTwitter />
+        </Link>
       </IconButton>
-      <IconButton>
-        <FaGithub />
+      <IconButton asChild>
+        <Link href={ownerData.social.github} target="_blank">
+          <FaGithub />
+        </Link>
       </IconButton>
-      <IconButton>
-        <FaRegEnvelope />
+      <IconButton asChild>
+        <Link href={ownerData.social.email} target="_blank">
+          <FaRegEnvelope />
+        </Link>
       </IconButton>
-      <IconButton>
-        <FaTelegram />
+      <IconButton asChild>
+        <Link href={ownerData.social.telegram} target="_blank">
+          <FaTelegram />
+        </Link>
       </IconButton>
       <IconButton roundedRight={"full"}>
-        <FaWhatsapp />
+        <Link href={ownerData.social.whatsapp} target="_blank">
+          <FaWhatsapp />
+        </Link>
       </IconButton>
     </ButtonGroup>
   );

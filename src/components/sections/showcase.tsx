@@ -9,8 +9,10 @@ import {
   VStack,
   Link as ChakraLink,
   LinkProps as AnchorProps,
+  Stack,
 } from "@chakra-ui/react";
 import Link, { LinkProps } from "next/link";
+import { ReactNode } from "react";
 import { IconType } from "react-icons";
 import { FaCodeCommit } from "react-icons/fa6";
 import { FiGitBranch } from "react-icons/fi";
@@ -21,6 +23,7 @@ type ShowcaseParams = {
   actionText: string;
 
   Icon?: IconType;
+  children?: ReactNode;
   _button?: ButtonProps;
   _anchor?: AnchorProps;
   _link?: LinkProps;
@@ -31,37 +34,43 @@ export function Showcase({
   description,
   actionText,
   Icon,
+  children,
   _anchor,
   _link,
   _button,
 }: ShowcaseParams) {
   return (
-    <HStack
+    <Stack
       justify="start"
       alignSelf={"center"}
       separator={<StackSeparator />}
-      gap="2rem"
-      px="8%"
-      w="80%"
+      gap={["1rem", "2rem"]}
+      px={["5%", "8%"]}
+      w={["100%", "80%"]}
+      direction={["column", "row"]}
     >
-      <VStack flex={1} alignItems={"end"}>
+      <Stack
+        w={["100%", "40%"]}
+        alignItems={["center", "end"]}
+        direction={["row", "column"]}
+      >
         {Icon && (
-          <Text as="span" fontSize="5xl">
+          <Text as="span" fontSize={["2xl", "5xl"]}>
             <Icon />
           </Text>
         )}
         <Heading
-          fontSize="4xl"
-          textAlign={"right"}
+          fontSize={["xl", "4xl"]}
+          textAlign={["left", "right"]}
           lineHeight={"shorter"}
           wordWrap={"break-word"}
         >
           {title}
         </Heading>
-      </VStack>
-      <VStack flex={2} gap={"1rem"} alignItems={"start"}>
+      </Stack>
+      <VStack w={["100%", "60%"]} gap={"1rem"} alignItems={"start"}>
         <Text
-          fontSize="2xl"
+          fontSize={["md", "2xl"]}
           className={notoSerif.className}
           fontWeight={"300"}
           textAlign={"left"}
@@ -69,12 +78,14 @@ export function Showcase({
           {description}
         </Text>
 
-        <Button rounded="2xl" {..._button} asChild>
+        {children}
+
+        <Button rounded="2xl" {..._button} asChild alignSelf={["end", "start"]}>
           <ChakraLink {..._anchor} asChild>
             <Link {..._link!}>{actionText}</Link>
           </ChakraLink>
         </Button>
       </VStack>
-    </HStack>
+    </Stack>
   );
 }

@@ -1,15 +1,16 @@
-import type { Author } from "./author";
+import type { ReadTimeResults } from "reading-time";
 
 export type Post = {
   slug: string;
   title: string;
-  date: Date;
+  published: Date;
   coverImage: string;
-  author: Author;
+  author: string;
   excerpt: string;
   ogImage: {
     url: string;
   };
   content: string;
   preview?: boolean;
+  stats?: ReadTimeResults;
 };
