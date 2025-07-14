@@ -29,7 +29,12 @@ export default async function Post(props: Params) {
       <Portal>
         <ReadingTimeProgressBar />
       </Portal>
-      <VStack as="article" alignItems={"start"} py={{ base: "3rem" }} w="100%">
+      <VStack
+        as="article"
+        alignItems={"start"}
+        py={{ base: "1rem", lg: "3rem" }}
+        w="100%"
+      >
         <PostHeader
           _heading={{
             fontSize: { base: "2xl", lg: "5xl" },
@@ -39,19 +44,20 @@ export default async function Post(props: Params) {
           {...post}
         />
         <PostBody content={post.content || ""} />
-        <IconButton
-          position="fixed"
-          left="1rem"
-          top="1rem"
-          asChild
-          rounded="full"
-          variant="subtle"
-        >
-          <Link href="/~/">
-            <FiArrowLeft />
-          </Link>
-        </IconButton>
       </VStack>
+      <IconButton
+        position="fixed"
+        left={{ base: "unset", lg: "1rem" }}
+        right={{ base: "1rem", lg: "unset" }}
+        top="1rem"
+        asChild
+        rounded="full"
+        variant="subtle"
+      >
+        <Link href="/~/">
+          <FiArrowLeft />
+        </Link>
+      </IconButton>
     </>
   );
 }
