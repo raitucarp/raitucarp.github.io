@@ -16,12 +16,12 @@ export default function Home() {
     <VStack
       w="100%"
       flex={1}
-      py={["1rem", "2rem"]}
+      py={{ base: "1rem", lg: "2rem" }}
       h="100%"
       bgGradient={"to-br"}
       gradientFrom={"bg"}
       gradientTo={"bg.muted"}
-      gap={["1rem", "3rem"]}
+      gap={{ base: "1rem", lg: "3rem" }}
       alignItems={"start"}
     >
       <HeroSection />

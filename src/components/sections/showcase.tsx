@@ -44,33 +44,33 @@ export function Showcase({
       justify="start"
       alignSelf={"center"}
       separator={<StackSeparator />}
-      gap={["1rem", "2rem"]}
-      px={["5%", "8%"]}
-      w={["100%", "80%"]}
-      direction={["column", "row"]}
+      gap={{ base: "1rem", lg: "2rem" }}
+      px={{ base: "5%", lg: "8%" }}
+      w={{ base: "100%", lg: "80%" }}
+      direction={{ base: "column", lg: "row" }}
     >
       <Stack
-        w={["100%", "40%"]}
-        alignItems={["center", "end"]}
-        direction={["row", "column"]}
+        w={{ base: "100%", lg: "40%" }}
+        alignItems={{ base: "center", lg: "end" }}
+        direction={{ base: "row", lg: "column" }}
       >
         {Icon && (
-          <Text as="span" fontSize={["2xl", "5xl"]}>
+          <Text as="span" fontSize={{ base: "2xl", lg: "5xl" }}>
             <Icon />
           </Text>
         )}
         <Heading
-          fontSize={["xl", "4xl"]}
-          textAlign={["left", "right"]}
+          fontSize={{ base: "xl", lg: "4xl" }}
+          textAlign={{ base: "left", lg: "right" }}
           lineHeight={"shorter"}
           wordWrap={"break-word"}
         >
           {title}
         </Heading>
       </Stack>
-      <VStack w={["100%", "60%"]} gap={"1rem"} alignItems={"start"}>
+      <VStack w={{ base: "100%", lg: "60%" }} gap={"1rem"} alignItems={"start"}>
         <Text
-          fontSize={["md", "2xl"]}
+          fontSize={{ base: "md", lg: "2xl" }}
           className={notoSerif.className}
           fontWeight={"300"}
           textAlign={"left"}
@@ -80,7 +80,12 @@ export function Showcase({
 
         {children}
 
-        <Button rounded="2xl" {..._button} asChild alignSelf={["end", "start"]}>
+        <Button
+          rounded="2xl"
+          {..._button}
+          asChild
+          alignSelf={{ base: "end", lg: "start" }}
+        >
           <ChakraLink {..._anchor} asChild>
             <Link {..._link!}>{actionText}</Link>
           </ChakraLink>

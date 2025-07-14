@@ -21,7 +21,11 @@ import { AboutMeHeading, OwnerHeading } from "../about";
 
 export function HeroSection() {
   return (
-    <HStack w="100%" px={["5%", "8%"]} py={["1rem", "2rem"]}>
+    <HStack
+      w="100%"
+      px={{ base: "5%", lg: "8%" }}
+      py={{ base: "1rem", lg: "2rem" }}
+    >
       <VStack alignItems={"start"}>
         <HStack justify="start" alignItems="center">
           <Heading
@@ -36,10 +40,10 @@ export function HeroSection() {
           </Heading>
           <ContactButtonGroup />
         </HStack>
-        <OwnerHeading fontSize={["2xl", "7xl"]} />
+        <OwnerHeading fontSize={{ base: "2xl", lg: "7xl" }} />
         <AboutMeHeading
           _highlight={{ query: "Developer" }}
-          fontSize={["md", "2xl"]}
+          fontSize={{ base: "md", lg: "2xl" }}
         />
 
         <CallToAction />

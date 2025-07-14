@@ -9,8 +9,6 @@ type Props = {
   content: string;
 };
 
-
-
 export function PostBody({ content }: Props) {
   return (
     <Markdown
@@ -20,10 +18,10 @@ export function PostBody({ content }: Props) {
           const { children, className, node, ...rest } = props;
           return (
             <Text
-              fontSize={["md", "2xl"]}
+              fontSize={{ base: "md", lg: "2xl" }}
               className={merriweather.className}
               fontWeight={"300"}
-              marginBlock={["0.8rem", "1rem"]}
+              marginBlock={{ base: "0.8rem", lg: "1rem" }}
               textIndent={"2rem"}
               lineHeight={"taller"}
             >
@@ -37,7 +35,7 @@ export function PostBody({ content }: Props) {
           return (
             <Heading
               as="h1"
-              fontSize={["4xl", "6xl"]}
+              fontSize={{ base: "4xl", lg: "6xl" }}
               lineHeight="short"
               className={notoSerif.className}
             >
@@ -52,7 +50,7 @@ export function PostBody({ content }: Props) {
           return (
             <Heading
               as="h2"
-              fontSize={["3xl", "5xl"]}
+              fontSize={{ base: "3xl", lg: "5xl" }}
               lineHeight="short"
               className={notoSerif.className}
             >
@@ -67,7 +65,7 @@ export function PostBody({ content }: Props) {
           return (
             <Heading
               as="h3"
-              fontSize={["2xl", "4xl"]}
+              fontSize={{ base: "2xl", lg: "4xl" }}
               lineHeight="short"
               className={notoSerif.className}
             >
@@ -82,7 +80,7 @@ export function PostBody({ content }: Props) {
           return (
             <Heading
               as="h4"
-              fontSize={["xl", "3xl"]}
+              fontSize={{ base: "xl", lg: "3xl" }}
               lineHeight="short"
               className={notoSerif.className}
             >
@@ -97,7 +95,7 @@ export function PostBody({ content }: Props) {
           return (
             <Heading
               as="h5"
-              fontSize={["lg", "2xl"]}
+              fontSize={{ base: "lg", lg: "2xl" }}
               lineHeight="short"
               className={notoSerif.className}
             >
@@ -112,7 +110,7 @@ export function PostBody({ content }: Props) {
           return (
             <Heading
               as="h6"
-              fontSize={["md", "xl"]}
+              fontSize={{ base: "md", lg: "xl" }}
               lineHeight="short"
               className={notoSerif.className}
             >

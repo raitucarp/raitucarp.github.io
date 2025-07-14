@@ -29,7 +29,7 @@ export default async function Post(props: Params) {
       <Portal>
         <ReadingTimeProgressBar />
       </Portal>
-      <VStack as="article" alignItems={"start"} py={["3rem"]}>
+      <VStack as="article" alignItems={"start"} py={{ base: "3rem" }}>
         <PostHeader
           _heading={{
             fontSize: ["2xl", "5xl"],

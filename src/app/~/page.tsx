@@ -56,7 +56,7 @@ export default function PostsPage() {
                 <Link href={`/~/${post.slug}`}>{post.title}</Link>
               </Heading>
               <Stack
-                direction={["column", "row"]}
+                direction={{ base: "column", lg: "row" }}
                 w="100%"
                 separator={<StackSeparator />}
                 gap={5}

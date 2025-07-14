@@ -20,20 +20,20 @@ export default function PostLayout({
   return (
     <VStack
       as="main"
-      w={["100%", "70%"]}
-      px={["1rem", "3rem"]}
-      py={["5%", "2%"]}
+      w={{ base: "100%", lg: "70%" }}
+      px={{ base: "1rem", lg: "3rem" }}
+      py={{ base: "5%", lg: "2%" }}
       margin="0 auto"
       alignItems={"start"}
     >
       <Stack
         w="100%"
         separator={<StackSeparator />}
-        direction={["column", "row"]}
+        direction={{ base: "column", lg: "row" }}
       >
         <Link passHref href="/">
           <OwnerHeading
-            fontSize={["lg", "2xl"]}
+            fontSize={{ base: "lg", lg: "2xl" }}
             _hover={{
               textDecor: "underline",
               textDecorationThickness: "0.01rem",
@@ -47,7 +47,7 @@ export default function PostLayout({
           />{" "}
         </Link>
         <AboutMeHeading
-          fontSize={["xs", "lg"]}
+          fontSize={{ base: "xs", lg: "lg" }}
           _highlight={{
             query: "Writer",
             styles: { color: { _dark: "blue.400", base: "blue.500" } },
