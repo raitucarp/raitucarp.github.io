@@ -48,7 +48,7 @@ export default async function Post(props: Params) {
       <IconButton
         position="fixed"
         left={{ base: "unset", lg: "1rem" }}
-        right={{ base: "1rem", lg: "unset" }}
+        right={{ base: "3rem", lg: "unset" }}
         top="1rem"
         asChild
         rounded="full"
