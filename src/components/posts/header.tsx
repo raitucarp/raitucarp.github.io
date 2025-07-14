@@ -17,7 +17,7 @@ export const PostHeader = ({
       <Heading lineHeight={"short"} {..._heading}>
         {title}
       </Heading>
-      <HStack>
+      <HStack wrap="wrap">
         <Badge size={"lg"}>{author}</Badge>
         <Badge size={"lg"}>{stats?.text}</Badge>
         <Badge size={"lg"}>{format(date, "dd MMMM yyy")}</Badge>
